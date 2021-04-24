@@ -1,6 +1,7 @@
 const mongoose = require ("mongoose");
 
 const Schema = mongoose.Schema;
+
 const WorkoutSchema = new Schema({
     day: {
         type: Date,
@@ -38,5 +39,7 @@ WorkoutSchema.virtual("totalDuration").get(function () {
         return ttl + exc.duration
     }, 0);
 });
+
+const Workout = mongoose.model("Workout", WorkoutSchema);
 
 module.exports = Workout;
