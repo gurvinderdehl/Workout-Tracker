@@ -32,6 +32,10 @@ const WorkoutSchema = new Schema({
     ]
 }, { toJSON: { virtuals: true } });
 
-
+WorkoutSchema.virtual("totalDuration").get(function () {
+    return this.exercises.reduce((ttl, exc) => {
+        return ttl + exc.duration
+    }, 0);
+});
 
 module.exports = Workout;
