@@ -13,7 +13,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 ## Usage
 
-Here is a demonstration of some of the application:
+Here is what some of the application looks like:
 
 ![Workout Tracker functionality](./assets/WorkoutTracker.jpeg)
 
