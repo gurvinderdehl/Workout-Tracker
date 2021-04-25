@@ -15,7 +15,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 Here is a demonstration of some of the application:
 
-![Workout Tracker functionality](./assets/Fitness-Tracker.gif)
+![Workout Tracker functionality](./assets/WorkoutTracker.jpeg)
 
 ## License
 
